@@ -1,0 +1,37 @@
+{
+  "name": "lexpayapi",
+  "version": "1.0.0",
+  "description": "api for a fintech app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seysil21-n/lexpayapi.git"
+  },
+  "author": "Joseph Sey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seysil21-n/lexpayapi/issues"
+  },
+  "homepage": "https://github.com/seysil21-n/lexpayapi#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.8",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.25.0",
+    "dayjs": "^1.10.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "firebase": "^9.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.2",
+    "socket.io": "^4.1.2",
+    "uuid": "^8.3.2"
+  }
+}
