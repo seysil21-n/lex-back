@@ -7,8 +7,8 @@ class SMS {
 
     static SendSMS = (data) => {
         const vonage = new Vonage({
-            apiKey: "16153087",
-            apiSecret: "ZUPjW6M0zdpElh8q"
+            apiKey: "<api key>",
+            apiSecret: "<api secret"
           })
 
         vonage.message.sendSms(data.from, data.to, data.text, (err, responseData) => {
